@@ -97,7 +97,7 @@
 }
 .main{
     display: flex;
-    align-items: center;
+   
     background-image: url("b1.jpg");
     height: 400px;
     background-size: cover;
@@ -107,9 +107,20 @@
 .main-left{
     margin-left:0%;
     font-size: 3rem;
+    margin-top: 90px;
 }
 .main-right{
     margin-left: 92%;
     font-size: 3rem;
+    margin-top: 90px;
     
+}
+.amazon.in{
+    left:0%;
+    background-color: white;
+    color: black;
+    padding: 10px;
+}
+a{
+    text-decoration: none;
 }
