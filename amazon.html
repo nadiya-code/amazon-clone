@@ -22,22 +22,34 @@
         </div>
        </div>
          <div class="nav-search">
-            <select class="search-category">
-                <option>All</option>
-            </select>
+            <div class=" select-all">
+            <select class="search-category remove_select_bar ">
+                <span>
+                <option >All</option>
+                </span>
+                </select>
+                <i class="fa-solid fa-caret-down icon-color"></i>
+                </div>
           <input type="text" class="search-box" placeholder="Search Amazon">
           <div class="search-icon">
                 <i class="fa-solid fa-magnifying-glass"></i>
           </div>
         </div>
-        <select class="nav-country border">
-            <i class="fa-solid fa-caret-down"></i>
+        <select class="nav-country border remove_select_bar ">
+            
             <img src="https://upload.wikimedia.org/wikipedia/en/a/ae/Flag_of_the_United_Kingdom.svg" alt="UK flag" class="flag">
-            <option>EN</option>
+            <span  class="border">
+            <option >EN</option>
+            </span>
+             <i class="fa-solid fa-caret-down"></i>
         </select>
-        <div class="nav-signin border">
+        
+        <div class="nav-signin">
+            <span class="border">
             <p class="signin1">Hello, Sign in</p>
-            <p class="signin2">Account & Lists <i class="fa-solid fa-caret-down"></i></p>
+            <p class="signin2">Account & Lists </p>
+            </span>
+                <i class="fa-solid fa-caret-down"></i>
         </div>
         <div class="nav-return border">
             <p>Return</p>
