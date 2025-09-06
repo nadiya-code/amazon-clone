@@ -5,9 +5,6 @@
     border:border-box;
     
 }
-html{
-    -webkit-text-size-adjust: 100%;
-}
 .navbar{
     height:60px;
     background-color: #0f1111;
@@ -63,16 +60,15 @@ appearance:none;
 }
 .select-all{
     display :inline-flex;
-    align-items: center;
     
 }
 .icon-color{
-    color:black;
-    align-items: center;
+    color:grey;
+    align-items: flex-end;
 }
 .nav-search{
     display: flex;
-    width: 600px;
+    width: 500px;
     height: 35px;
 }
 .search-box{
@@ -93,26 +89,14 @@ appearance:none;
     border:none;
 
 }
-.select-all{
-    width: 40px;
-    background-color: rgb(209, 207, 207);
-    display: flex;
-    border-top-left-radius: 4px ;
-    border-bottom-left-radius: 4px ;
-}
-
 .search-category{
     width:50px;
-    background-color:rgb(209, 207, 207);
+    background-color: #f3f3f3;
     text-align: center;
     border-top-left-radius: 4px ;
     border-bottom-left-radius: 4px ;
     border:none;
 
-}
-.scrollicon{
-    width: 2px;
-    
 }
 .nav-country{
     appearance:none;
@@ -146,66 +130,4 @@ appearance:none;
     align-items: center;
     gap: 10px;
 
-}
-/* make box-sizing sane */
-* { box-sizing: border-box; }
-
-/* HERO wrapper — must be position:relative for absolute children to align */
-.main{
-    position: relative;
-    display:flex;
-    background-image: url("b1.jpg");
-    height: 400px;
-    background-size:cover;
-    width:100%;
-}
-.main-left{
-    
-    margin-left: 12px;
-    font-size:3rem;
-    margin-top:90px;
-}
-.main-right{
-    margin-left:90%;
-    margin-right: 10px;
-    font-size: 3rem;
-    margin-top: 90px;
-    
-
-}
-.fa-solid{
-    font-weight: 100;
-}
-
-/* NOTICE BAR (centered and overlapping) */
-.amazonin {
-  position: absolute;               /* float on top of the hero */
-  left: 50%;                        /* center horizontally */
-  transform: translateX(-50%);      /* center adjustment */
-  bottom: 108px;   
-  margin-bottom: 0;                  /* height above bottom of hero — tweak as needed */
-  z-index: 30;                       /* above image, below header if header has higher z-index */
-  background: #f5f6f6;              /* solid white like Amazon */
-  padding: 10px 14px;
-  min-width: 1320px;                /* centered content width similar to Amazon */
-  text-align: center;
-}
-
-/* text styling inside notice */
-.amazonin p {
-  margin: 0;
-  font-size: 14px;
-  line-height: 1.35;
-  color: #111;
-}
-
-.amazonin a {
-  color: #007185;
-  text-decoration: none;
-  margin-left: 6px;
-}
-
-/* responsive tweak: keep notice narrower on wide screens */
-@media (min-width: 900px) {
-  .amazonin { width: min(1100px, 80%); }
 }
