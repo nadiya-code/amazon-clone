@@ -114,6 +114,17 @@ appearance:none;
     width: 2px;
     
 }
+.countryy{
+    display:flex;
+    align-items: center;
+    height: 17px;
+}
+.flag{
+    background-image: url("england.jpg");
+    width:20px;
+    height: 15px;
+    background-size: cover;
+}
 .nav-country{
     appearance:none;
     -webkit-appearance: none;
@@ -174,7 +185,7 @@ appearance:none;
 
 }
 .fa-solid{
-    font-weight: 100;
+    font-weight: lighter;
 }
 
 /* NOTICE BAR (centered and overlapping) */
@@ -187,7 +198,7 @@ appearance:none;
   z-index: 30;                       /* above image, below header if header has higher z-index */
   background: #f5f6f6;              /* solid white like Amazon */
   padding: 10px 14px;
-  min-width: 1320px;                /* centered content width similar to Amazon */
+  min-width: 95%;                /* centered content width similar to Amazon */
   text-align: center;
 }
 
